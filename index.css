@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: #fef8f8;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo span {
+    color: #e85470;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.icons .icon {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero h1 span {
+    color: #e85470;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.hero p span {
+    color: #e85470;
+    font-weight: bold;
+}
+
+.description {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more {
+    background-color: #e85470;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.learn-more:hover {
+    background-color: #c03e5a;
+}
+
+.watch-video {
+    background-color: transparent;
+    color: #e85470;
+    border: 2px solid #e85470;
+}
+
+.watch-video:hover {
+    background-color: #e85470;
+    color: #fff;
+}
+
+.image-container {
+    margin-top: 30px;
+    position: relative;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #f7d8e0;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #888;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #e85470;
+}

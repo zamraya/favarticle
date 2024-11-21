@@ -1,0 +1,51 @@
+body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: url('/images/strawberry') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            backdrop-filter: blur(8px);
+        }
+        .login-box {
+            width: 300px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+        }
+        .login-box h2 {
+            margin: 0 0 30px;
+            text-align: center;
+        }
+        .login-box input[type="text"], 
+        .login-box input[type="password"], 
+        .login-box input[type="submit"],
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            background: lightgray;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .login-box input[type="submit"],
+        .login-box button {
+            color: black;
+            cursor: pointer;
+        }
+        .login-box input[type="submit"]:hover,
+        .login-box button:hover {
+            background: #d0d0d0;
+        }
+        .signup-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .signup-link a {
+            color: #3498db;
+            text-decoration: none;
+        }
