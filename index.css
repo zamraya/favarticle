@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #fef8f8;
-    color: #333;
+    background-color: #ffd3de;
+    color: black;
 }
 
 header {
@@ -71,7 +71,7 @@ nav a {
     max-width: 600px;
     margin: 20px auto;
     font-size: 14px;
-    color: #aaa;
+    color: black;
 }
 
 .buttons {
