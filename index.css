@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #ffd3de;
+    background-color: hotpink; 
     color: black;
 }
 
@@ -44,6 +44,7 @@ nav a {
     text-align: center;
     padding: 60px 20px;
     position: relative;
+    background-color: #ffd3de;
 }
 
 .hero h1 {
